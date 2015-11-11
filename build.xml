@@ -64,6 +64,8 @@
         <arg value="${project.basedir}/build/logs/pmd-cpd.xml" />
         <arg path="${project.basedir}/www" />
     </exec>
+
+    <echo msg="${project.basedir}" />
 </target>
 
 
