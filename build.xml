@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+p<?xml version="1.0" encoding="UTF-8"?>
 
 <project name="TestJenkins" default="ci" basedir="./">
 
 
-<property name="source" value="jenkins_test/workspace"/>
+<!--<property name="source" value="jenkins_test/workspace"/>-->
 
     <target name="ci"
         description="Tâche principale d'intégration continue"
@@ -62,7 +62,7 @@
     <exec executable="phpcpd">
         <arg value="--log-pmd" />
         <arg value="${project.basedir}/build/logs/pmd-cpd.xml" />
-        <arg path="${project.basedir}/${source}/www" />
+        <arg path="${project.basedir}/www" />
     </exec>
 </target>
 
