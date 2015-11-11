@@ -1,0 +1,20 @@
+.connexion .vcenter {
+    margin-top: 150px;
+}
+
+.connexion {
+    background-image: url('../images/Innovation.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    background-color: 1023577;
+}
+
+.connexion .error {
+    color: red;
+    font-weight: bold;
+}
+
+.connexion .btn {
+    font-weight: bold;
+}
